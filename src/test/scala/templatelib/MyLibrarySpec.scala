@@ -1,7 +1,5 @@
 package templatelib
 
-package fpinscalalib
-
 import org.scalacheck.Shapeless._
 import org.scalaexercises.Test
 import org.scalatest.Spec
