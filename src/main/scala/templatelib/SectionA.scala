@@ -16,12 +16,13 @@
 
 package templatelib
 
-import org.scalatest._
+import org.scalatest.matchers.should.Matchers
 import org.scalaexercises.definitions._
+import org.scalatest.flatspec.AnyFlatSpec
 
 /** @param name section_title
   */
-object SectionA extends FlatSpec with Matchers with Section {
+object SectionA extends AnyFlatSpec with Matchers with Section {
 
   /** = Exercise block title =
     *
