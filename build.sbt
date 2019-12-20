@@ -18,7 +18,7 @@ lazy val template = (project in file("."))
       dep("definitions"),
       %%("shapeless", "2.3.3"),
       %%("scalatest", "3.1.0"),
-      %%("scalacheck", "1.14.2"),
+      %%("scalacheck", "1.14.3"),
       "com.github.alexarchambault" %% "scalacheck-shapeless_1.14" % "1.2.3",
       "org.scalatestplus" %% "scalatestplus-scalacheck" % "3.1.0.0-RC2"
     ),
