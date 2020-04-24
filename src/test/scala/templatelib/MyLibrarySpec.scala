@@ -23,11 +23,9 @@ import org.scalatestplus.scalacheck.Checkers
 import shapeless.HNil
 
 class MyLibrarySpec extends RefSpec with Checkers {
-  def `function asserts` = {
+  def `function asserts` =
     check(Test.testSuccess(SectionA.functionAssert _, true :: HNil))
-  }
 
-  def `function false asserts` = {
+  def `function false asserts` =
     check(Test.testSuccess(SectionA.functionFalseAssert _, false :: HNil))
-  }
 }
