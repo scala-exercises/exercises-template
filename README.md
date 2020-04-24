@@ -1,6 +1,5 @@
 # Scala Exercises - template library
 
-------------------------
 
 This repository hosts a template content library for the [Scala Exercises](https://www.scala-exercises.org/) platform, in order to make the creation process of content libraries easier.
 
