@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2020 47 Degrees <https://47deg.com>
+ * Copyright 2016-2020 47 Degrees Open Source <https://www.47deg.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,11 +20,13 @@ import org.scalatest.matchers.should.Matchers
 import org.scalaexercises.definitions._
 import org.scalatest.flatspec.AnyFlatSpec
 
-/** @param name section_title
+/**
+ * @param name section_title
  */
 object SectionA extends AnyFlatSpec with Matchers with Section {
 
-  /** = Exercise block title =
+  /**
+   * = Exercise block title =
    *
    * Text describing background about the exercise, can be as long as needed.
    *
@@ -37,7 +39,8 @@ object SectionA extends AnyFlatSpec with Matchers with Section {
   def functionAssert(res0: Boolean): Unit =
     true shouldBe res0
 
-  /** And obviously you can add as many documentation and exercises as you need
+  /**
+   * And obviously you can add as many documentation and exercises as you need
    * to make your point ;-).
    */
   def functionFalseAssert(res0: Boolean): Unit =
