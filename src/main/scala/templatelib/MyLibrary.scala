@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2020 47 Degrees <https://47deg.com>
+ * Copyright 2016-2020 47 Degrees Open Source <https://www.47deg.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,8 @@
 package templatelib
 import org.scalaexercises.definitions._
 
-/** This is the description of the library as it will appear in the Scala Exercises website.
+/**
+ * This is the description of the library as it will appear in the Scala Exercises website.
  *
  * @param name template
  */
@@ -26,9 +27,10 @@ object MyLibrary extends Library {
   override def repository = "scala-exercises"
   override def color      = Some("#323232")
 
-  override def sections = List(
-    SectionA
-  )
+  override def sections =
+    List(
+      SectionA
+    )
 
   override def logoPath = ""
 }
