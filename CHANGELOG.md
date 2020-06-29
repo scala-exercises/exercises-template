@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.6.3.3](https://github.com/scala-exercises/exercises-template/tree/v0.6.3.3) (2020-06-29)
+
+[Full Changelog](https://github.com/scala-exercises/exercises-template/compare/v0.6.3.2...v0.6.3.3)
+
+## [v0.6.3.2](https://github.com/scala-exercises/exercises-template/tree/v0.6.3.2) (2020-06-29)
+
+[Full Changelog](https://github.com/scala-exercises/exercises-template/compare/v0.6.3...v0.6.3.2)
+
 ## [v0.6.3](https://github.com/scala-exercises/exercises-template/tree/v0.6.3) (2020-06-29)
 
 [Full Changelog](https://github.com/scala-exercises/exercises-template/compare/v0.6.3.1...v0.6.3)
