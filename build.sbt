@@ -3,8 +3,8 @@ import com.jsuereth.sbtpgp.PgpKeys.publishSigned
 ThisBuild / organization := "org.scala-exercises"
 ThisBuild / githubOrganization := "47degrees"
 ThisBuild / scalaVersion := "2.13.3"
+ThisBuild / publishTo := sonatypePublishToBundle.value
 
-publishTo := sonatypePublishToBundle.value
 publish / skip := true
 
 // This is required by the exercises compiler:
