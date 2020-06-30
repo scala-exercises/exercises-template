@@ -8,7 +8,7 @@ publish / skip := true
 
 // This is required by the exercises compiler:
 publishLocal := (publishLocal dependsOn compile).value
-publishSigned := (publishSigned dependsOn compile).value
+//publishSigned := (publishSigned dependsOn compile).value
 
 addCommandAlias("ci-test", "scalafmtCheckAll; scalafmtSbtCheck; test")
 addCommandAlias("ci-docs", "github; documentation/mdoc; headerCreateAll")
