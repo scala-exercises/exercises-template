@@ -2,8 +2,7 @@ import com.jsuereth.sbtpgp.PgpKeys.publishSigned
 
 ThisBuild / organization := "org.scala-exercises"
 ThisBuild / githubOrganization := "47degrees"
-ThisBuild / scalaVersion := "2.13.2"
-ThisBuild / publishTo := sonatypePublishToBundle.value
+ThisBuild / scalaVersion := "2.13.3"
 
 publish / skip := true
 
