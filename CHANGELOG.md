@@ -1,5 +1,13 @@
 # Changelog
 
+## [v6.3.5](https://github.com/scala-exercises/exercises-template/tree/v6.3.5) (2020-08-10)
+
+[Full Changelog](https://github.com/scala-exercises/exercises-template/compare/v6.3.4...v6.3.5)
+
+📈 **Dependency updates**
+
+- Update definitions, exercise-compiler, ... to 0.6.4 [\#58](https://github.com/scala-exercises/exercises-template/pull/58) ([47erbot](https://github.com/47erbot))
+
 ## [v6.3.4](https://github.com/scala-exercises/exercises-template/tree/v6.3.4) (2020-08-10)
 
 [Full Changelog](https://github.com/scala-exercises/exercises-template/compare/v6.3.3.9...v6.3.4)
