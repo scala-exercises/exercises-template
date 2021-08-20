@@ -21,12 +21,13 @@ import org.scalaexercises.definitions._
 import org.scalatest.flatspec.AnyFlatSpec
 
 /**
- * @param name section_title
+ * @param name
+ *   section_title
  */
 object SectionA extends AnyFlatSpec with Matchers with Section {
 
   /**
-   * = Exercise block title =
+   * =Exercise block title=
    *
    * Text describing background about the exercise, can be as long as needed.
    *
@@ -40,8 +41,8 @@ object SectionA extends AnyFlatSpec with Matchers with Section {
     true shouldBe res0
 
   /**
-   * And obviously you can add as many documentation and exercises as you need
-   * to make your point ;-).
+   * And obviously you can add as many documentation and exercises as you need to make your point
+   * ;-).
    */
   def functionFalseAssert(res0: Boolean): Unit =
     false shouldBe res0
